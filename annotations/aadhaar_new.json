@@ -1,0 +1,109 @@
+{
+  "document_type": "aadhaar",
+  "variant": "aadhaar_new",
+  "template_image": {
+    "width": 1200,
+    "height": 685,
+    "original_source_file": "templates/aadhar_new.jpg",
+    "preprocessed_copy": "preprocessed_images\\aadhar_new_preprocessed.jpg",
+    "annotated_copy": "annotated_images\\aadhar_new_annotated.jpg"
+  },
+  "anchors": [
+    {
+      "id": "anchor_002",
+      "label": "emblem",
+      "type": "text_region",
+      "box": {
+        "x": 0.03166666666666667,
+        "y": 0.04817518248175182,
+        "width": 0.08083333333333333,
+        "height": 0.17372262773722627
+      },
+      "descriptor_ref": "descriptors\\aadhar_new_anchor_002.npz",
+      "keypoint_count": 155,
+      "detector": "ORB"
+    },
+    {
+      "id": "anchor_003",
+      "label": "logo",
+      "type": "text_region",
+      "box": {
+        "x": 0.8141666666666667,
+        "y": 0.027737226277372264,
+        "width": 0.1275,
+        "height": 0.15328467153284672
+      },
+      "descriptor_ref": "descriptors\\aadhar_new_anchor_003.npz",
+      "keypoint_count": 50,
+      "detector": "ORB"
+    }
+  ],
+  "fields": [
+    {
+      "id": "field_004",
+      "label": "name",
+      "box": {
+        "x": 0.32083333333333336,
+        "y": 0.28613138686131384,
+        "width": 0.355,
+        "height": 0.15328467153284672
+      },
+      "value_type": "text",
+      "validator_regex": null,
+      "label_keywords": [],
+      "ocr_lang": "eng",
+      "ocr_psm": 7
+    },
+    {
+      "id": "field_005",
+      "label": "dob",
+      "box": {
+        "x": 0.3225,
+        "y": 0.4335766423357664,
+        "width": 0.375,
+        "height": 0.08321167883211679
+      },
+      "value_type": "text",
+      "validator_regex": null,
+      "label_keywords": [],
+      "ocr_lang": "eng",
+      "ocr_psm": 7
+    },
+    {
+      "id": "field_006",
+      "label": "gender",
+      "box": {
+        "x": 0.32,
+        "y": 0.5153284671532846,
+        "width": 0.24583333333333332,
+        "height": 0.11094890510948906
+      },
+      "value_type": "text",
+      "validator_regex": null,
+      "label_keywords": [],
+      "ocr_lang": "eng",
+      "ocr_psm": 7
+    },
+    {
+      "id": "field_007",
+      "label": "aadhar_no",
+      "box": {
+        "x": 0.3125,
+        "y": 0.7649635036496351,
+        "width": 0.37,
+        "height": 0.09197080291970802
+      },
+      "value_type": "text",
+      "validator_regex": null,
+      "label_keywords": [],
+      "ocr_lang": "eng",
+      "ocr_psm": 7
+    }
+  ],
+  "metadata": {
+    "created_by": "opencv_annotation_tool",
+    "created_at": "2026-09-17T16:48:43.477033Z",
+    "sample_count_validated": 0,
+    "preprocessing_applied": true
+  }
+}

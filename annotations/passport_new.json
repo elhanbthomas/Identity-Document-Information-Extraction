@@ -1,0 +1,124 @@
+{
+  "document_type": "passport",
+  "variant": "passport_new",
+  "template_image": {
+    "width": 1200,
+    "height": 821,
+    "original_source_file": "templates/passport_new.jpg",
+    "preprocessed_copy": "preprocessed_images\\passport_new_preprocessed.jpg",
+    "annotated_copy": "annotated_images\\passport_new_annotated.jpg"
+  },
+  "anchors": [
+    {
+      "id": "anchor_001",
+      "label": "title",
+      "type": "text_region",
+      "box": {
+        "x": 0.24166666666666667,
+        "y": 0.015834348355663823,
+        "width": 0.4816666666666667,
+        "height": 0.048721071863580996
+      },
+      "descriptor_ref": "descriptors\\passport_new_anchor_001.npz",
+      "keypoint_count": 0,
+      "detector": "ORB"
+    },
+    {
+      "id": "anchor_002",
+      "label": "nationality",
+      "type": "text_region",
+      "box": {
+        "x": 0.4241666666666667,
+        "y": 0.09378806333739342,
+        "width": 0.31083333333333335,
+        "height": 0.07429963459196103
+      },
+      "descriptor_ref": "descriptors\\passport_new_anchor_002.npz",
+      "keypoint_count": 0,
+      "detector": "ORB"
+    }
+  ],
+  "fields": [
+    {
+      "id": "field_003",
+      "label": "surname",
+      "box": {
+        "x": 0.3283333333333333,
+        "y": 0.17661388550548113,
+        "width": 0.3075,
+        "height": 0.1023142509135201
+      },
+      "value_type": "text",
+      "validator_regex": null,
+      "label_keywords": [],
+      "ocr_lang": "eng",
+      "ocr_psm": 7
+    },
+    {
+      "id": "field_004",
+      "label": "first name",
+      "box": {
+        "x": 0.33,
+        "y": 0.26552984165651644,
+        "width": 0.31416666666666665,
+        "height": 0.10840438489646773
+      },
+      "value_type": "text",
+      "validator_regex": null,
+      "label_keywords": [],
+      "ocr_lang": "eng",
+      "ocr_psm": 7
+    },
+    {
+      "id": "field_005",
+      "label": "dob",
+      "box": {
+        "x": 0.33166666666666667,
+        "y": 0.36662606577344703,
+        "width": 0.20333333333333334,
+        "height": 0.09622411693057248
+      },
+      "value_type": "text",
+      "validator_regex": null,
+      "label_keywords": [],
+      "ocr_lang": "eng",
+      "ocr_psm": 7
+    },
+    {
+      "id": "field_006",
+      "label": "gender",
+      "box": {
+        "x": 0.5866666666666667,
+        "y": 0.3690621193666261,
+        "width": 0.09333333333333334,
+        "height": 0.09622411693057248
+      },
+      "value_type": "text",
+      "validator_regex": null,
+      "label_keywords": [],
+      "ocr_lang": "eng",
+      "ocr_psm": 7
+    },
+    {
+      "id": "field_007",
+      "label": "passport_no",
+      "box": {
+        "x": 0.7583333333333333,
+        "y": 0.0876979293544458,
+        "width": 0.24083333333333334,
+        "height": 0.09744214372716199
+      },
+      "value_type": "text",
+      "validator_regex": null,
+      "label_keywords": [],
+      "ocr_lang": "eng",
+      "ocr_psm": 7
+    }
+  ],
+  "metadata": {
+    "created_by": "opencv_annotation_tool",
+    "created_at": "2026-09-17T17:41:02.791769Z",
+    "sample_count_validated": 0,
+    "preprocessing_applied": true
+  }
+}
